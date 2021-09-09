@@ -1,0 +1,80 @@
+easy board A* search misplaced tiles:
+Moves: up right up left down
+# of moves = 5
+# of nodes expanded = 7
+Execution time in milliseconds: 3
+
+easy board A* search manhattan:
+Moves: up right up left down
+# of moves = 5
+# of nodes expanded = 6
+Execution time in milliseconds: 1
+
+easy board IDA* search manhattan:
+Moves: up right up left down
+# of moves: 5
+# of nodes expanded = 6
+Execution time in milliseconds: 8
+
+easy board DFBnB search manhattan:
+Moves: up right up left down
+# of moves: 5
+# of nodes expanded = 15
+Execution time in milliseconds: 0
+
+medium board A* search misplaced tiles:
+Moves: up right right down left left up right down
+# of moves = 9
+# of nodes expanded = 94
+Execution time in milliseconds: 12
+
+medium board A* search manhattan:
+Moves: up right right down left left up right down
+# of moves = 9
+# of nodes expanded = 19
+Execution time in milliseconds: 0
+
+medium board IDA* search manhattan:
+Moves: up right right down left left up right down
+# of moves: 9
+# of nodes expanded = 55
+Execution time in milliseconds: 228
+
+medium board DFBnB search manhattan:
+OUT OF MEMORY ERROR
+
+hard board A* search misplaced tiles:
+Moves: right up left up right right down left left up right down
+# of moves = 12
+# of nodes expanded = 738
+Execution time in milliseconds: 333
+
+hard board A* search manhattan:
+Moves: right up left up right right down left left up right down
+# of moves = 12
+# of nodes expanded = 85
+Execution time in milliseconds: 8
+
+hard board IDA* search manhattan:
+Moves: right up left up right right down left left up right down
+# of moves: 12
+# of nodes expanded = 181
+Execution time in milliseconds: 888
+
+hard board DFBnB search manhattan:
+OUT OF MEMORY ERROR
+
+worst board A* search misplaced tiles:
+TAKES TOO LONG TO SOLVE
+
+worst board A* search manhattan:
+Moves: right down left left up up right right down down left left up up right right down down left left up up right right down down left left up right
+# of moves = 30
+# of nodes expanded = 12178
+Execution time in milliseconds: 60040
+
+worst board IDA* search manhattan:
+OUT OF MEMORY ERROR
+
+worst board DFBnB search manhattan:
+OUT OF MEMORY ERROR
